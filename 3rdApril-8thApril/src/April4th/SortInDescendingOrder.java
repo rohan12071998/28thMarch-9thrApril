@@ -1,0 +1,27 @@
+package April4th;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class SortInDescendingOrder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer>Elements=new ArrayList();
+		Elements.add(6);
+		Elements.add(4);
+		Elements.add(2);
+		Elements.add(10);
+		Elements.add(8);
+		Elements.add(12);
+		//System.out.println(Elements);
+		//for(int i=Elements.size();i>0;i--) {
+			//System.out.println(Elements(i));
+		Collections.sort(Elements,Collections.reverseOrder());
+		System.out.println(Elements);
+	
+
+	}
+
+}
